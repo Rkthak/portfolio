@@ -13,10 +13,28 @@
   font-family: variable.$jost;
   text-transform: capitalize;
   font-size: 1.85rem;
-  font-weight: 500;
-  text-decoration: none;
   transition: color 0.2s ease-in-out;
 }
 .navlink:hover {
   color: variable.$accent;
+}
+@media (max-width: 768px) {
+  .open_on_mobile {
+    flex-direction: column;
+    width: 100%;
+    height: calc(100% - 7rem);
+    gap: 1rem;
+    position: absolute;
+    top: 6.7rem;
+    left: 0;
+    background-color: variable.$main;
+  }
+
+  .hide_on_mobile {
+    display: none;
+  }
+
+  .navlink {
+    font-size: 2.5rem;
+  }
 }

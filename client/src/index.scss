@@ -20,6 +20,11 @@ img {
   object-fit: cover;
 }
 
+a {
+  font-weight: 500;
+  text-decoration: none;
+}
+
 .name {
   font-family: variable.$kaushanscript;
   text-transform: capitalize;
@@ -37,4 +42,9 @@ img {
 .image {
   width: 30rem;
   border: 0.25rem solid gray;
+}
+@media (min-width: 1268px) and (max-width: 1440px) {
+  html {
+    font-size: 1rem;
+  }
 }
