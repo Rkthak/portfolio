@@ -1,0 +1,22 @@
+@use "./variable";
+.navlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navlist_item {
+  list-style-type: none;
+  margin: 0 1.85rem;
+}
+.navlink {
+  color: variable.$sec;
+  font-family: variable.$jost;
+  text-transform: capitalize;
+  font-size: 1.85rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+.navlink:hover {
+  color: variable.$accent;
+}

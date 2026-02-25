@@ -1,0 +1,13 @@
+@use "./variable";
+@use "./navbar";
+@use "./logo";
+
+.header {
+  background-color: variable.$main;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  color: variable.$sec;
+}

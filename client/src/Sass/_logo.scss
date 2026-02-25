@@ -1,0 +1,7 @@
+@use "./variable";
+.logo {
+  font-size: 3.25rem;
+  font-family: variable.$kaushanscript;
+  text-transform: capitalize;
+  color: variable.$sec;
+}
